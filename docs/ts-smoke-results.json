@@ -1,0 +1,29 @@
+{
+  "fixture": "Synthetic 20-second course speech; H.264 video and AAC audio in MPEG-TS",
+  "passed": true,
+  "streams": [
+    "audio",
+    "video"
+  ],
+  "artifacts": [
+    "text.txt",
+    "metadata.json",
+    "warnings.txt",
+    "timestamped.txt",
+    "subtitles.srt"
+  ],
+  "original_unchanged": true,
+  "unchanged_restart_skipped": true,
+  "metadata": {
+    "original_filename": "lesson.ts",
+    "relative_source": "lesson.ts",
+    "relative_course_folder": ".",
+    "language": "en",
+    "duration_seconds": 20.3406875,
+    "device": "cuda",
+    "compute_type": "float16",
+    "batch_size": 8,
+    "model_revision": "0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf",
+    "model": "large-v3-turbo"
+  }
+}

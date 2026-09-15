@@ -1,0 +1,17 @@
+{
+  "test": "Fresh environment without CUDA DLLs, using the already-downloaded model cache",
+  "metadata": {
+    "language": "en",
+    "duration_seconds": 20.306,
+    "device": "cpu",
+    "compute_type": "int8",
+    "batch_size": 1,
+    "model_revision": "0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf",
+    "model": "large-v3-turbo"
+  },
+  "warnings": [
+    "Missing/unloadable CUDA 12 cuBLAS or cuDNN 9: Could not find module 'cublas64_12.dll' (or one of its dependencies). Try using the full path with constructor syntax.. CPU fallback is available.",
+    "Recognition flags are heuristics, not a correctness guarantee. First audio stream only; VAD may omit quiet speech."
+  ],
+  "passed": true
+}

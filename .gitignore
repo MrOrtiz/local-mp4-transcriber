@@ -1,0 +1,10 @@
+.venv/
+reference/
+tools/
+tmp/
+output/
+dist/
+__pycache__/
+.pytest_cache/
+.user-settings.json
+*.pyc

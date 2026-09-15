@@ -1,0 +1,184 @@
+{
+  "fixture": "Windows System.Speech synthetic course introduction; not representative course accuracy",
+  "gpu": [
+    {
+      "index": 0,
+      "name": "NVIDIA GeForce RTX 3060",
+      "total_mb": 12288,
+      "free_mb": 10829
+    }
+  ],
+  "checks": [
+    {
+      "mode": "fast",
+      "requested_device": "auto",
+      "file": "lesson.flac",
+      "load_seconds": 4.052808200009167,
+      "inference_seconds": 1.1940607000142336,
+      "model_reused": true,
+      "metadata": {
+        "language": "en",
+        "duration_seconds": 20.3059375,
+        "device": "cuda",
+        "compute_type": "float16",
+        "batch_size": 8,
+        "model": "large-v3-turbo"
+      },
+      "text": "Welcome to this course on local transcription. Today we will learn how to organize audio recordings and extract readable text from documents. Keep the original files unchanged. Each lesson should include its source file name and useful references. Always review technical terms against the recording.",
+      "segments": 1,
+      "passed": true
+    },
+    {
+      "mode": "fast",
+      "requested_device": "auto",
+      "file": "lesson.m4a",
+      "load_seconds": 4.052808200009167,
+      "inference_seconds": 0.5508672000141814,
+      "model_reused": true,
+      "metadata": {
+        "language": "en",
+        "duration_seconds": 20.3175,
+        "device": "cuda",
+        "compute_type": "float16",
+        "batch_size": 8,
+        "model": "large-v3-turbo"
+      },
+      "text": "Welcome to this course on local transcription. Today we will learn how to organize audio recordings and extract readable text from documents. Keep the original files unchanged. Each lesson should include its source file name and useful references. Always review technical terms against the recording.",
+      "segments": 1,
+      "passed": true
+    },
+    {
+      "mode": "fast",
+      "requested_device": "auto",
+      "file": "lesson.mkv",
+      "load_seconds": 4.052808200009167,
+      "inference_seconds": 0.5494350999942981,
+      "model_reused": true,
+      "metadata": {
+        "language": "en",
+        "duration_seconds": 20.3406875,
+        "device": "cuda",
+        "compute_type": "float16",
+        "batch_size": 8,
+        "model": "large-v3-turbo"
+      },
+      "text": "Welcome to this course on local transcription. Today we will learn how to organize audio recordings and extract readable text from documents. Keep the original files unchanged. Each lesson should include its source filename and useful references. Always review technical terms against the recording.",
+      "segments": 1,
+      "passed": true
+    },
+    {
+      "mode": "fast",
+      "requested_device": "auto",
+      "file": "lesson.mov",
+      "load_seconds": 4.052808200009167,
+      "inference_seconds": 0.5232125000329688,
+      "model_reused": true,
+      "metadata": {
+        "language": "en",
+        "duration_seconds": 20.3175,
+        "device": "cuda",
+        "compute_type": "float16",
+        "batch_size": 8,
+        "model": "large-v3-turbo"
+      },
+      "text": "Welcome to this course on local transcription. Today we will learn how to organize audio recordings and extract readable text from documents. Keep the original files unchanged. Each lesson should include its source file name and useful references. Always review technical terms against the recording.",
+      "segments": 1,
+      "passed": true
+    },
+    {
+      "mode": "fast",
+      "requested_device": "auto",
+      "file": "lesson.mp3",
+      "load_seconds": 4.052808200009167,
+      "inference_seconds": 0.5169889000244439,
+      "model_reused": true,
+      "metadata": {
+        "language": "en",
+        "duration_seconds": 20.3059375,
+        "device": "cuda",
+        "compute_type": "float16",
+        "batch_size": 8,
+        "model": "large-v3-turbo"
+      },
+      "text": "Welcome to this course on local transcription. Today we will learn how to organize audio recordings and extract readable text from documents. Keep the original files unchanged. Each lesson should include its source file name and useful references. Always review technical terms against the recording.",
+      "segments": 1,
+      "passed": true
+    },
+    {
+      "mode": "fast",
+      "requested_device": "auto",
+      "file": "lesson.mp4",
+      "load_seconds": 4.052808200009167,
+      "inference_seconds": 0.5050985000561923,
+      "model_reused": true,
+      "metadata": {
+        "language": "en",
+        "duration_seconds": 20.3175,
+        "device": "cuda",
+        "compute_type": "float16",
+        "batch_size": 8,
+        "model": "large-v3-turbo"
+      },
+      "text": "Welcome to this course on local transcription. Today we will learn how to organize audio recordings and extract readable text from documents. Keep the original files unchanged. Each lesson should include its source file name and useful references. Always review technical terms against the recording.",
+      "segments": 1,
+      "passed": true
+    },
+    {
+      "mode": "fast",
+      "requested_device": "auto",
+      "file": "lesson.wav",
+      "load_seconds": 4.052808200009167,
+      "inference_seconds": 0.5434377999627031,
+      "model_reused": true,
+      "metadata": {
+        "language": "en",
+        "duration_seconds": 20.306,
+        "device": "cuda",
+        "compute_type": "float16",
+        "batch_size": 8,
+        "model": "large-v3-turbo"
+      },
+      "text": "Welcome to this course on local transcription. Today we will learn how to organize audio recordings and extract readable text from documents. Keep the original files unchanged. Each lesson should include its source file name and useful references. Always review technical terms against the recording.",
+      "segments": 1,
+      "passed": true
+    },
+    {
+      "mode": "quality",
+      "requested_device": "auto",
+      "file": "lesson.wav",
+      "load_seconds": 5.7022501999745145,
+      "inference_seconds": 1.6643123000394553,
+      "model_reused": true,
+      "metadata": {
+        "language": "en",
+        "duration_seconds": 20.306,
+        "device": "cuda",
+        "compute_type": "float16",
+        "batch_size": 8,
+        "model": "large-v3"
+      },
+      "text": "Welcome to this course on local transcription.\n\nToday we will learn how to organize audio recordings and extract readable text from\n\ndocuments.\n\nKeep the original files unchanged.\n\nEach lesson should include its source filename and useful references.\n\nAlways review technical terms against the recording.",
+      "segments": 6,
+      "passed": true
+    },
+    {
+      "mode": "fast",
+      "requested_device": "cpu",
+      "file": "lesson.wav",
+      "load_seconds": 4.123128600011114,
+      "inference_seconds": 13.29049629997462,
+      "model_reused": true,
+      "metadata": {
+        "language": "en",
+        "duration_seconds": 20.306,
+        "device": "cpu",
+        "compute_type": "int8",
+        "batch_size": 1,
+        "model": "large-v3-turbo"
+      },
+      "text": "Welcome to this course on local transcription. Today we will learn how to organize audio recordings and extract readable text from documents. Keep the original files unchanged. Each lesson should include its source file name and useful references. Always review technical terms against the recording.",
+      "segments": 1,
+      "passed": true
+    }
+  ]
+}
